@@ -1,0 +1,60 @@
+<!doctype html>
+<head>
+ <style>
+   .style1{
+     background-color:rgb(153,255,153);color:black;
+   }
+ </style>
+ <title>Ang's Attic</title>
+</head>
+
+<body style="background-color:rgb(153,255,153)">
+  <h1 align="center" style=font-size:32px>Ang's Attic</h1>
+  
+  <p align="left" style=font-size:20px>about me</p>
+  
+  <p align="center" style=font-size:20px>my kitchen</p>
+  
+  <p align="right" style=font-size:20px>gallery</p>
+  <br><br><br>
+  
+  <p align="center" style=font-size:15px>COLLABORATIVE PLAYLIST</p>
+   <form action="/action_page.php" method="get" target="_blank">
+    <div align="center">
+      <h1>Music Taste Survey</h1>
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" name = "name">
+      <br><br>
+      Enter your list of songs:
+      <textarea name="Comments" cols=30 rows=4></textarea>
+      <br><br>
+      GENRES
+      <br><br>
+      Do you like __?
+      <input type="radio" name="exe" value=1>Yes
+      <input type="radio" name="exe" value=0>No
+      <br><br>
+      
+     Which genres do you listen to most often?
+      <!--checkbox lets you select multiple options-->
+      <input type="checkbox"name="Books">Books
+      <input type="checkbox"name="Web">Web
+      <input type="checkbox"name="Phone">Phone
+      <input type="checkbox"name="Magazines">Magazines
+      <br><br>
+      <!--Select box lets you chose from a dropdown menu-->
+      Where do you listen to music the most?
+      <select name="moviepref"><option>
+        <option value=1 selected="true">comedy</option>
+        <option value=2>romance</option>
+        <option value=3>horror</option>
+        <option value=4>thriller</option>
+        <option value=5>documentary</option>
+        
+      </option></select>
+      <br><br>
+      <input type="submit" value="Submit Form">
+    </div>
+    </form>
+  
+</body>
