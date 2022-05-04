@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>music rater</title>
+    <style>
+      html{font-family:Georgia;color:#333;}
+      body{background:pink;margin:0;}
+    </style>
+  </head>
+  
+<body>
+<form action="/action_page.php" method="get" target="_blank">
+    <div align="center">
+      <br><br><br>
+      <h1>Music Taste Rater</h1>
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" name = "name">
+      <br><br>
+      Enter your list of songs:
+      <textarea name="Comments" cols=30 rows=4></textarea>
+      <br><br>
+      <br><br>
+      Do you like all (or most) genres of music?
+      <input type="radio" name="exe" value=1>Yes
+      <input type="radio" name="exe" value=0>No
+      <br><br>
+      
+     Where do you listen to music the most?
+      <!--checkbox lets you select multiple options-->
+      <input type="checkbox"name="on the road">on the road
+      <input type="checkbox"name="airplanes">airplanes
+      <input type="checkbox"name="your room">your room
+      <input type="checkbox"name="in a remote place">in a remote place
+      <br><br>
+      <!--Select box lets you chose from a dropdown menu-->
+      Which genres do you listen to most often?
+      <select name="moviepref"><option>
+        <option value=1 selected="true">Pop</option>
+        <option value=2>R&B</option>
+        <option value=3>Rock</option>
+        <option value=4>Alternative</option>
+        <option value=5>Jpop</option>
+        <option value=6>Kpop</option>
+        
+      </option></select>
+      <br><br>
+      <input type="submit" value="Submit Form">
+    </div>
+    </form>
+ </body>
+
+</html>
