@@ -6,13 +6,38 @@
       html{font-family:Georgia;color:#333;}
       body{background:pink;margin:0;}
     </style>
+    <style>
+  html{font-family:Georgia;color:#333;}
+  body{background:#999;margin:0;}
+  #container{width:1200px;height:160px;margin:0 auto;background:#fff;}
+  #header{width:100%;height:35px;border-bottom:2px dashed #000000;margin:10px;}
+   #navbar{height:160px;clear:both}
+   #navbar ul{margin:0;padding:0;list-style-type:none;}
+   #navbar ul li{padding:10px;float:left;}
+   #navbar ul li a{font-size:15px;float:left;padding:0 0 0 150px;display:block;}
+ </style>
   </head>
   
 <body>
+  <!--CONTAINER-->
+    <div id="container">
+  
+  <h1 align="center" style=font-size:32px>Music Taste Rater</h1><br><br><br>
+  
+      <!--HEADER-->
+      <div id="header">
+        <div id="navbar">
+          <ul>
+            <li><a href="angsattichome.html">About Me</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+  
 <form action="/action_page.php" method="get" target="_blank">
     <div align="center">
       <br><br><br>
-      <h1>Music Taste Rater</h1>
+      <h1>How Objectively Good Is Your Taste In Music?</h1>
       <label for="name">Enter your name:</label>
       <input type="text" id="name" name = "name">
       <br><br>
